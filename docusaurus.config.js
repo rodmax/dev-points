@@ -6,7 +6,7 @@ module.exports = {
     title: 'Dev tips store by Max Rodionov',
     tagline: '',
     url: 'https://rodmax.github.io',
-    baseUrl: '/',
+    baseUrl: '/dev-tips-store/',
     trailingSlash: false,
     organizationName: 'rodmax',
     projectName: 'dev-tips-store',
