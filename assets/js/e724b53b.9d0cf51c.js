@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdev_tips_store=self.webpackChunkdev_tips_store||[]).push([[503],{715:function(s){s.exports=JSON.parse('{"allTagsPath":"/dev-tips-store/blog/tags","slug":"test","name":"test","count":1,"permalink":"/dev-tips-store/blog/tags/test"}')}}]);
