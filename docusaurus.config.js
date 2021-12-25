@@ -3,15 +3,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-    title: 'My Site',
-    tagline: 'Dinosaurs are cool',
-    url: 'https://your-docusaurus-test-site.com',
+    title: 'Dev tips store by Max Rodionov',
+    tagline: '',
+    url: 'https://rodmax.github.io',
     baseUrl: '/',
+    trailingSlash: false,
+    organizationName: 'rodmax',
+    projectName: 'dev-tips-store',
+    favicon: 'img/favicon.ico',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
-    favicon: 'img/favicon.ico',
-    organizationName: 'facebook', // Usually your GitHub org/user name.
-    projectName: 'docusaurus', // Usually your repo name.
     themeConfig: {
         navbar: {
             title: 'My Site',
