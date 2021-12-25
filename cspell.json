@@ -10,13 +10,18 @@
   ],
   "language": "en",
   "words": [
+    "apos",
     "browserslist",
     "cimode",
+    "clsx",
     "codecov",
     "codeframe",
     "depcruise",
     "graphviz",
+    "Infima",
+    "Jamstack",
     "minmax",
+    "mkdir",
     "mockapi",
     "mqpacker",
     "peaceiris",
@@ -27,6 +32,7 @@
     "rodmax",
     "shellcheck",
     "stylelint",
+    "svgr",
     "testcafe"
   ]
 }
