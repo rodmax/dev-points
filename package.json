@@ -1,10 +1,10 @@
 {
-  "name": "dev-tips-store",
+  "name": "dev-points",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
+    "start": "docusaurus start --no-open",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -12,6 +12,8 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
+    "eslint:base": "eslint -f visualstudio --ext=js,jsx,ts,tsx",
+    "eslint:all": "npm run eslint:base -- ./",
     "cspell:base": "cspell lint --no-progress",
     "cspell:all": "cspell lint --no-progress $(git ls-files)",
     "postinstall": "husky install",
@@ -26,16 +28,18 @@
     "*.{ts,tsx}": [
       "prettier --write"
     ],
-    "*.js": [
-      "prettier --write"
+    "*.{js,jsx}": [
+      "prettier --write",
+      "npm run eslint:base"
     ],
     "*": [
       "npm run cspell:base"
     ]
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.4",
-    "@docusaurus/preset-classic": "2.0.0-beta.4",
+    "@cmfcmf/docusaurus-search-local": "0.9.2",
+    "@docusaurus/core": "2.0.0-beta.14",
+    "@docusaurus/preset-classic": "2.0.0-beta.14",
     "@mdx-js/react": "^1.6.21",
     "@svgr/webpack": "^5.5.0",
     "clsx": "^1.1.1",
@@ -58,7 +62,9 @@
     ]
   },
   "devDependencies": {
+    "@docusaurus/types": "2.0.0-beta.14",
     "cspell": "5.13.4",
+    "eslint": "8.6.0",
     "husky": "7.0.4",
     "lint-staged": "12.1.4",
     "prettier": "2.5.1"

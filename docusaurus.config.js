@@ -1,33 +1,30 @@
+// @ts-check
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
+const TITLE = 'Dev points'
+const PROJECT_NAME = 'dev-points'
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-    title: 'Dev tips store by Max Rodionov',
+    title: TITLE,
     tagline: '',
     url: 'https://rodmax.github.io',
-    baseUrl: '/dev-tips-store/',
+    baseUrl: `/${PROJECT_NAME}/`,
     trailingSlash: false,
     organizationName: 'rodmax',
-    projectName: 'dev-tips-store',
-    favicon: 'img/favicon.ico',
+    projectName: PROJECT_NAME,
+    favicon: 'img/favicon.svg',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     themeConfig: {
         navbar: {
-            title: 'Dev tips store by Max Rodionov',
+            title: TITLE,
             logo: {
                 alt: 'Dev Tips Logo',
-                src: 'img/logo.svg',
+                src: 'img/ava.png',
             },
             items: [
-                {
-                    type: 'doc',
-                    docId: 'intro',
-                    position: 'left',
-                    label: 'Tutorial',
-                },
-                { to: '/blog', label: 'Blog', position: 'left' },
                 {
                     href: 'https://github.com/rodmax',
                     label: 'GitHub',
@@ -36,68 +33,24 @@ module.exports = {
             ],
         },
         footer: {
-            style: 'dark',
-            links: [
-                {
-                    title: 'Docs',
-                    items: [
-                        {
-                            label: 'Tutorial',
-                            to: '/docs/intro',
-                        },
-                    ],
-                },
-                // {
-                //     title: 'Community',
-                //     items: [
-                //         {
-                //             label: 'Stack Overflow',
-                //             href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                //         },
-                //         {
-                //             label: 'Discord',
-                //             href: 'https://discordapp.com/invite/docusaurus',
-                //         },
-                //         {
-                //             label: 'Twitter',
-                //             href: 'https://twitter.com/docusaurus',
-                //         },
-                //     ],
-                // },
-                {
-                    title: 'More',
-                    items: [
-                        {
-                            label: 'Blog',
-                            to: '/blog',
-                        },
-                        {
-                            label: 'My GitHub',
-                            href: 'https://github.com/rodmax',
-                        },
-                    ],
-                },
-            ],
-            copyright: `Copyright © ${new Date().getFullYear()} Max Rodionov, Inc. Built with Docusaurus.`,
+            style: 'light',
+            links: [],
+            copyright: `Copyright © ${new Date().getFullYear()} Max Rodionov. Built with <a target="_blank" href="https://docusaurus.io">Docusaurus</a>.`,
         },
         prism: {
             theme: lightCodeTheme,
             darkTheme: darkCodeTheme,
         },
     },
+    plugins: [[require.resolve('@cmfcmf/docusaurus-search-local'), {}]],
     presets: [
         [
             '@docusaurus/preset-classic',
             {
-                docs: {
-                    sidebarPath: require.resolve('./sidebars.js'),
-                    // Please change this to your repo.
-                    editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
-                },
+                docs: false,
                 blog: {
+                    routeBasePath: '/',
                     showReadingTime: true,
-                    // Please change this to your repo.
-                    editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),

@@ -6,15 +6,25 @@
  */
 
 /* You can override the default Infima variables here. */
-:root {
-    --ifm-color-primary: #25c2a0;
-    --ifm-color-primary-dark: rgb(33, 175, 144);
-    --ifm-color-primary-darker: rgb(31, 165, 136);
-    --ifm-color-primary-darkest: rgb(26, 136, 112);
-    --ifm-color-primary-light: rgb(70, 203, 174);
-    --ifm-color-primary-lighter: rgb(102, 212, 189);
-    --ifm-color-primary-lightest: rgb(146, 224, 208);
+:root:root {
+    /* play with primary color here: https://docusaurus.io/docs/styling-layout */
+    --ifm-color-primary: #51a9d9;
+    --ifm-color-primary-dark: #399dd4;
+    --ifm-color-primary-darker: #2d97d0;
+    --ifm-color-primary-darkest: #257cab;
+    --ifm-color-primary-light: #69b5de;
+    --ifm-color-primary-lighter: #76bbe1;
+    --ifm-color-primary-lightest: #9acde9;
     --ifm-code-font-size: 95%;
+}
+
+:root:root,
+body[data-theme='dark'][data-theme='dark'] {
+    /* Search algolia customization */
+    --aa-primary-color-rgb: 118, 187, 225;
+    --aa-input-border-color-rgb: 200, 200, 200;
+    --aa-panel-border-color-rgb: var(--aa-input-border-color-rgb);
+    --aa-muted-color-rgb: var(--aa-input-border-color-rgb);
 }
 
 .docusaurus-highlight-code-line {
