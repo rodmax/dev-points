@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://rodmax.github.io/dev-points/</id>
+    <title>Dev points Blog</title>
+    <updated>2022-01-02T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://rodmax.github.io/dev-points/"/>
+    <subtitle>Dev points Blog</subtitle>
+    <icon>https://rodmax.github.io/dev-points/img/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[(Coming soon). Newsletters and regular resources for FrontEnd developer]]></title>
+        <id>/2022/01/02/reqular-dev-resources</id>
+        <link href="https://rodmax.github.io/dev-points/2022/01/02/reqular-dev-resources"/>
+        <updated>2022-01-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Intro]]></summary>
+        <content type="html"><![CDATA[<h2>Intro</h2><p>I will try to organize my list of regular subscriptions and news sources</p><h2>JavaScript Weekly</h2><blockquote><p><a href="https://javascriptweekly.com/">https://javascriptweekly.com/</a></p></blockquote><h2>React Weekly</h2>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>/2022/01/01/welcome</id>
+        <link href="https://rodmax.github.io/dev-points/2022/01/01/welcome"/>
+        <updated>2022-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi I’m Max (or Maxim), a developer from Belarus]]></summary>
+        <content type="html"><![CDATA[<p>Hi I’m Max (or Maxim), a developer from Belarus</p><p>While communicating with colleagues, we often find interesting solutions, tips, something useful and sharable.</p><p>Sometimes I just give advice in chats and notice that these answers later would be of great help to someone else</p><p>I also tried to systematize my knowledge and see how it will look</p><p>in the end, I created this project with blogs, notes to collect all above finds...</p><p>At worst, I learn how to mange <a href="https://docusaurus.io/">docusaurus</a> sites :sunglasses:</p>]]></content>
+    </entry>
+</feed>

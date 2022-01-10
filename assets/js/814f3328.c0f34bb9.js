@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdev_tips_store=self.webpackChunkdev_tips_store||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/dev-tips-store/blog/welcome"}]}')}}]);

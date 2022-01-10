@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Dev points Blog</title>
+        <link>https://rodmax.github.io/dev-points/</link>
+        <description>Dev points Blog</description>
+        <lastBuildDate>Sun, 02 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[(Coming soon). Newsletters and regular resources for FrontEnd developer]]></title>
+            <link>https://rodmax.github.io/dev-points/2022/01/02/reqular-dev-resources</link>
+            <guid>/2022/01/02/reqular-dev-resources</guid>
+            <pubDate>Sun, 02 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Intro]]></description>
+            <content:encoded><![CDATA[<h2>Intro</h2><p>I will try to organize my list of regular subscriptions and news sources</p><h2>JavaScript Weekly</h2><blockquote><p><a href="https://javascriptweekly.com/">https://javascriptweekly.com/</a></p></blockquote><h2>React Weekly</h2>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://rodmax.github.io/dev-points/2022/01/01/welcome</link>
+            <guid>/2022/01/01/welcome</guid>
+            <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hi I’m Max (or Maxim), a developer from Belarus]]></description>
+            <content:encoded><![CDATA[<p>Hi I’m Max (or Maxim), a developer from Belarus</p><p>While communicating with colleagues, we often find interesting solutions, tips, something useful and sharable.</p><p>Sometimes I just give advice in chats and notice that these answers later would be of great help to someone else</p><p>I also tried to systematize my knowledge and see how it will look</p><p>in the end, I created this project with blogs, notes to collect all above finds...</p><p>At worst, I learn how to mange <a href="https://docusaurus.io/">docusaurus</a> sites :sunglasses:</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

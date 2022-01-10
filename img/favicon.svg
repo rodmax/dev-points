@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 57.6 57.6"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.51372549"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     width="64px"
+     scale-x="0.7"
+     inkscape:zoom="5.9794052"
+     inkscape:cx="57.112705"
+     inkscape:cy="56.192881"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="text80684" />
+  <defs
+     id="defs2">
+    <filter
+       inkscape:label="Pixellize"
+       inkscape:menu="Pixel Tools"
+       inkscape:menu-tooltip="Reduce or remove antialiasing around shapes"
+       style="color-interpolation-filters:sRGB;"
+       id="filter56122"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1000 -500 "
+         id="feColorMatrix56120" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       aria-label="&lt;D&gt;"
+       id="text16886"
+       style="font-size:35.3372px;line-height:1.25;font-family:code;-inkscape-font-specification:code;stroke-width:0.883429;filter:url(#filter56122)">
+      <circle
+         style="fill:#c55b54;fill-opacity:1;stroke-width:0.795086"
+         id="path145254"
+         cx="28.799999"
+         cy="28.799999"
+         r="28.799999" />
+      <g
+         aria-label="&lt;D&gt;
+"
+         id="text80684"
+         style="font-size:38.4px;font-family:sans-serif;fill:#f9f9f9;stroke-width:0.795086">
+        <path
+           d="M 17.5776,39.028801 3.6,32.445601 v -3.9 l 13.9776,-6.5832 v 3.588 l -9.0479999,4.1808 q -0.624,0.2808 -1.248,0.4992 -0.5928,0.1872 -0.936,0.2496 0.3432,0.0624 0.9672,0.2496 0.624,0.1872 1.2168,0.468 l 9.0479999,4.1808 z"
+           style="font-weight:bold;font-size:31.2px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Bold'"
+           id="path167088" />
+        <path
+           d="M 22.288754,40.776001 V 18 h 6.7704 q 2.3088,0 3.9936,0.9048 1.716,0.8736 2.652,2.464801 0.936,1.5912 0.936,3.744 v 8.5176 q 0,2.1528 -0.936,3.7752 -0.936,1.5912 -2.652,2.496 -1.6848,0.8736 -3.9936,0.8736 z m 3.9,-3.588 h 2.8704 q 1.6848,0 2.6832,-0.936 0.9984,-0.9672 0.9984,-2.6208 v -8.5176 q 0,-1.6224 -0.9984,-2.5584 -0.9984,-0.9672 -2.6832,-0.9672 h -2.8704 z"
+           style="font-weight:bold;font-size:31.2px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Bold'"
+           id="path167090" />
+        <path
+           d="m 41.039907,39.028801 v -3.588 l 9.048,-4.1808 q 0.624,-0.2808 1.2168,-0.468 0.624,-0.1872 0.9672,-0.2808 -0.3432,-0.0624 -0.9672,-0.2184 -0.624,-0.1872 -1.2168,-0.468 l -9.048,-4.212 v -3.6504 l 13.9776,6.5832 v 3.9 z"
+           style="font-weight:bold;font-size:31.2px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Bold'"
+           id="path167092" />
+      </g>
+    </g>
+  </g>
+</svg>
