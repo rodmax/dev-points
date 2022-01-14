@@ -39,8 +39,8 @@ and study in detail 1-3 depending on free time.
 
 ## Conclusion
 
-In fact I am subscribed to a much more ~~useless~~ stuff<br/>
-but these ones I described above seem to cover the actual informational stream
+In fact, I am subscribed to a much more ~~useless~~ stuff,<br/>
+but these I described above seem to cover the actual informational stream
 
 :bulb: Regular newsletters are only one part of your professional progress.<br/>
-Do not forget about studying technologies and tools using courses(or self-study), books, take part in open source
+Do not forget about studying technologies and tools using courses(or self-study), books, take part in open source.
