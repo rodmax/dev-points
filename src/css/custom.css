@@ -18,13 +18,13 @@
     --ifm-code-font-size: 95%;
 }
 
-:root:root,
-body[data-theme='dark'][data-theme='dark'] {
-    /* Search algolia customization */
-    --aa-primary-color-rgb: 118, 187, 225;
-    --aa-input-border-color-rgb: 200, 200, 200;
-    --aa-panel-border-color-rgb: var(--aa-input-border-color-rgb);
-    --aa-muted-color-rgb: var(--aa-input-border-color-rgb);
+.navbar__search-input {
+    border-radius: 0;
+    min-width: 250px;
+}
+
+.navbar__search-input:focus-visible {
+    outline: 1px var(--ifm-color-primary-lighter) solid;
 }
 
 .docusaurus-highlight-code-line {

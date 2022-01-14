@@ -42,7 +42,16 @@ module.exports = {
             darkTheme: darkCodeTheme,
         },
     },
-    plugins: [[require.resolve('@cmfcmf/docusaurus-search-local'), {}]],
+    plugins: [
+        [
+            require.resolve('@easyops-cn/docusaurus-search-local'),
+            {
+                hashed: true,
+                language: ['en', 'ru'],
+                blogRouteBasePath: '/',
+            },
+        ],
+    ],
     presets: [
         [
             '@docusaurus/preset-classic',
