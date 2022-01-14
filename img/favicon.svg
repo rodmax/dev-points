@@ -8,6 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="favicon.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,14 +27,15 @@
      width="64px"
      scale-x="0.7"
      inkscape:zoom="5.9794052"
-     inkscape:cx="57.112705"
-     inkscape:cy="56.192881"
+     inkscape:cx="57.112704"
+     inkscape:cy="56.360121"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
-     inkscape:current-layer="text80684" />
+     inkscape:current-layer="text80684"
+     showguides="false" />
   <defs
      id="defs2">
     <filter
@@ -60,28 +62,26 @@
        id="text16886"
        style="font-size:35.3372px;line-height:1.25;font-family:code;-inkscape-font-specification:code;stroke-width:0.883429;filter:url(#filter56122)">
       <circle
-         style="fill:#c55b54;fill-opacity:1;stroke-width:0.795086"
+         style="fill:#2d97d0;fill-opacity:1;stroke-width:0.795086"
          id="path145254"
          cx="28.799999"
          cy="28.799999"
          r="28.799999" />
       <g
-         aria-label="&lt;D&gt;
-"
+         aria-label="&lt;D&gt; "
          id="text80684"
          style="font-size:38.4px;font-family:sans-serif;fill:#f9f9f9;stroke-width:0.795086">
         <path
-           d="M 17.5776,39.028801 3.6,32.445601 v -3.9 l 13.9776,-6.5832 v 3.588 l -9.0479999,4.1808 q -0.624,0.2808 -1.248,0.4992 -0.5928,0.1872 -0.936,0.2496 0.3432,0.0624 0.9672,0.2496 0.624,0.1872 1.2168,0.468 l 9.0479999,4.1808 z"
-           style="font-weight:bold;font-size:31.2px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Bold'"
-           id="path167088" />
+           d="m 26.546278,43.400112 -14.4,-11.109324 v -6.581352 l 14.4,-11.109324 v 6.054845 l -9.321428,7.055211 q -0.642857,0.473857 -1.285714,0.842412 -0.610715,0.315906 -0.964286,0.421207 0.353571,0.105304 0.996428,0.421206 0.642858,0.315905 1.253572,0.789762 l 9.321428,7.055211 z"
+           id="path167088"
+           style="stroke-width:1.04835" />
+        <!-- style="font-weight:bold;font-size:31.2px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Bold'" -->
+        <!-- style="font-weight:bold;font-size:31.2px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Bold'" -->
         <path
-           d="M 22.288754,40.776001 V 18 h 6.7704 q 2.3088,0 3.9936,0.9048 1.716,0.8736 2.652,2.464801 0.936,1.5912 0.936,3.744 v 8.5176 q 0,2.1528 -0.936,3.7752 -0.936,1.5912 -2.652,2.496 -1.6848,0.8736 -3.9936,0.8736 z m 3.9,-3.588 h 2.8704 q 1.6848,0 2.6832,-0.936 0.9984,-0.9672 0.9984,-2.6208 v -8.5176 q 0,-1.6224 -0.9984,-2.5584 -0.9984,-0.9672 -2.6832,-0.9672 h -2.8704 z"
-           style="font-weight:bold;font-size:31.2px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Bold'"
-           id="path167090" />
-        <path
-           d="m 41.039907,39.028801 v -3.588 l 9.048,-4.1808 q 0.624,-0.2808 1.2168,-0.468 0.624,-0.1872 0.9672,-0.2808 -0.3432,-0.0624 -0.9672,-0.2184 -0.624,-0.1872 -1.2168,-0.468 l -9.048,-4.212 v -3.6504 l 13.9776,6.5832 v 3.9 z"
-           style="font-weight:bold;font-size:31.2px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Bold'"
-           id="path167092" />
+           d="m 31.103867,43.299392 v -6.054845 l 9.321428,-7.055209 q 0.642858,-0.473859 1.253573,-0.789763 0.642856,-0.315905 0.996427,-0.473858 -0.353571,-0.105301 -0.996427,-0.368555 -0.642858,-0.315905 -1.253573,-0.789764 l -9.321428,-7.10786 v -6.160146 l 14.4,11.109324 v 6.581353 z"
+           id="path167092"
+           style="stroke-width:1.04835" />
+        <!-- style="font-weight:bold;font-size:31.2px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Bold'" -->
       </g>
     </g>
   </g>
