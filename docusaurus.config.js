@@ -2,7 +2,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
-const TITLE = 'Dev points'
+const TITLE = 'DevPoints'
 const PROJECT_NAME = 'dev-points'
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
@@ -19,7 +19,7 @@ module.exports = {
     onBrokenMarkdownLinks: 'warn',
     themeConfig: {
         navbar: {
-            title: TITLE,
+            title: `<${TITLE}/>`,
             logo: {
                 alt: 'Dev Tips Logo',
                 src: 'img/ava.png',
