@@ -32,7 +32,7 @@
       "prettier --write",
       "npm run eslint:base"
     ],
-    "*": [
+    "!*.svg": [
       "npm run cspell:base"
     ]
   },
