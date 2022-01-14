@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://rodmax.github.io/dev-points/</id>
-    <title>Dev points Blog</title>
+    <title>DevPoints Blog</title>
     <updated>2022-01-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://rodmax.github.io/dev-points/"/>
-    <subtitle>Dev points Blog</subtitle>
+    <subtitle>DevPoints Blog</subtitle>
     <icon>https://rodmax.github.io/dev-points/img/favicon.svg</icon>
     <entry>
         <title type="html"><![CDATA[Newsletters and regular resources for FrontEnd developer]]></title>
