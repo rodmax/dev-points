@@ -20,6 +20,7 @@
     "codeframe",
     "depcruise",
     "graphviz",
+    "Hansa",
     "Infima",
     "Jamstack",
     "minmax",
@@ -35,6 +36,8 @@
     "shellcheck",
     "stylelint",
     "svgr",
-    "testcafe"
+    "testcafe",
+    "Umar",
+    "Webnya"
   ]
 }
