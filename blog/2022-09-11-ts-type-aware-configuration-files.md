@@ -5,8 +5,10 @@ tags: [frontend, eslintrc, ts, nodejs]
 
 ## The problem
 
-:bulb: **I feel frustrated any time, when i have no autocomplete on typing a property in a config file for a popular tool**
+:bulb: I feel frustrated any time, when i have no autocomplete on typing a property in a config file for a popular tool
 like `prettier.config.json`...
+
+<!--truncate-->
 
 Sometimes, the IDE/CodeEditor knowns "schema" of `json/yaml` config and hints when you type(for ex. `tsconfig.json`, `package.json`).
 But frequently it is not so.

@@ -9,6 +9,8 @@ The resources presented in the article are primarily addressed to the _SPA-focus
 To be honest, these are my favorite resources.
 so my taste preferences could affect the choice
 
+<!--truncate-->
+
 The information bellow is suitable for both `juniors` and `seniors`
 
 ## "Baseline" pack
