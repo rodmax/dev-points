@@ -1,7 +1,8 @@
+// @ts-check
 /**
  * @typedef { import('prettier').Options } PrettierConfig
- * @typedef { Array<{files: string | string[], options: PrettierConfig}> } PrettierOverrides
- * @type { PrettierConfig & { overrides?: PrettierOverrides } }
+ * @typedef { {files: string | string[], options: PrettierConfig} } PrettierOverrideConfig
+ * @type { PrettierConfig & { overrides?: PrettierOverrideConfig[] } }
  */
 const config = {
     trailingComma: 'es5',
