@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdev_points=self.webpackChunkdev_points||[]).push([[835],{2394:function(s){s.exports=JSON.parse('{"allTagsPath":"/dev-points/tags","slug":"/dev-points/tags/eslintrc","name":"eslintrc","count":1,"permalink":"/dev-points/tags/eslintrc"}')}}]);

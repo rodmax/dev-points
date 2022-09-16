@@ -2,11 +2,104 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://rodmax.github.io/dev-points/</id>
     <title>DevPoints Blog</title>
-    <updated>2022-01-02T00:00:00.000Z</updated>
+    <updated>2022-09-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://rodmax.github.io/dev-points/"/>
     <subtitle>DevPoints Blog</subtitle>
     <icon>https://rodmax.github.io/dev-points/img/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[TS-type aware configuration files]]></title>
+        <id>/2022/09/11/ts-type-aware-configuration-files</id>
+        <link href="https://rodmax.github.io/dev-points/2022/09/11/ts-type-aware-configuration-files"/>
+        <updated>2022-09-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The problem]]></summary>
+        <content type="html"><![CDATA[<h2>The problem</h2><p>:bulb: <strong>I feel frustrated any time, when i have no autocomplete on typing a property in a config file for a popular tool</strong>
+like <code>prettier.config.json</code>...</p><p>Sometimes, the IDE/CodeEditor knowns &quot;schema&quot; of <code>json/yaml</code> config and hints when you type(for ex. <code>tsconfig.json</code>, <code>package.json</code>).
+But frequently it is not so.</p><p>Notice the problem is not about productivity or business-related code quality metrics
+but what developer experience <del>should be</del> i expect in 2022+ year</p><blockquote><p>If you use the WebStorm and your IDE helps you cook all config files in your project,
+you are lucky and may not read the below part of this blog :smile:.
+But even in this case, I will suggest some advantages you may like. See the <a href="#conclusion">Conclusion</a> section.</p></blockquote><h2>TypeScript is everywhere</h2><p>Almost all popular tools in the nodejs world follow trends:</p><ul><li>involve TypeScript for public API and/or internal development(even JS-written tools try to provide <code>.d.ts</code> files as contract)</li><li>allow different file formats for its configuration files (json,json5,ini,yaml,js)</li></ul><p>Both facts allow us to use the following approach...</p><h2>TL;DR;</h2><ul><li>Use whenever possible config files in <code>js</code> format instead of <code>json,yaml,ini</code></li><li>Enable TS checking and annotate config object with TS-types using <code>jsdoc</code></li></ul><p>The code snippet:</p><pre><code class="language-js">/**
+ * .{my-fancy-tool-config}.js
+ */
+// @ts-check
+
+/** @type {import(&#x27;my-fancy-tool/path-to-types&#x27;).ConfigType} */
+const config = {
+    thisPropertyAutocompleted: ```
+        and marks as error in case of
+        not existing/missing key
+        or wrong type of value```,
+}
+module.exports = config
+</code></pre><h2>Examples</h2><h3>.eslintrc.js</h3><pre><code class="language-js">// @ts-check
+/**
+ * @type { import(&#x27;eslint&#x27;).Linter.Config }
+ */
+const config = {...}
+module.exports = config
+</code></pre><h3>webpack.config.js</h3><pre><code class="language-js">// @ts-check
+/**
+ * @typedef { import(&#x27;webpack&#x27;).Configuration &amp; {
+ *      devServer: import(&#x27;webpack-dev-server&#x27;).Configuration
+ * }} WebpackConfiguration
+ *
+ * @type { WebpackConfiguration }
+ */
+const config = {...}
+module.exports = config
+</code></pre><h3>prettier.config.js</h3><pre><code class="language-js">// @ts-check
+/**
+ * @typedef { import(&#x27;prettier&#x27;).Options } PrettierConfig
+ * @typedef { {files: string | string[], options: PrettierConfig} } PrettierOverrideConfig
+ * @type { PrettierConfig &amp; { overrides?: PrettierOverrideConfig[] } }
+ */
+const config = {
+    ...,
+    tabWidth: 4,
+    // &quot;overrides&quot; not provided by original typings
+    // so we add our custom &quot;overrides&quot; (see jsdoc comment above)
+    overrides: [
+        {
+            files: &#x27;*.{json,yaml,yml}&#x27;,
+            options: { tabWidth: 2 },
+        },
+    ],
+}
+module.exports = config
+</code></pre><h3>stylelint.config.js</h3><pre><code class="language-js">// @ts-check
+/**
+ * @type { import(&#x27;stylelint&#x27;).Config }
+ */
+const config = {...}
+module.exports = config
+</code></pre><h3>.testcaferc.js</h3><p>Below typings is a most hacky example of what did I have to do in the real world, but the solution seems ok to me.</p><pre><code class="language-js">// @ts-check
+/// &lt;reference path=&#x27;node_modules/testcafe/ts-defs/index.d.ts&#x27;/&gt;
+/**
+ * @typedef { Partial&lt;TestCafeConfigurationOptions&gt; &amp; {
+ *  hooks?: {
+ *      runTest?: {
+ *          before?(): void
+ *          after?(): void
+ *      }
+ *  }
+ * } } TestCafeImprovedConfig
+ */
+
+/**
+ * @type { TestCafeImprovedConfig }
+ */
+const config = {}
+module.exports = config
+</code></pre><h3>docusaurus.config.js</h3><pre><code class="language-js">// @ts-check
+/** @type {import(&#x27;@docusaurus/types&#x27;).DocusaurusConfig} */
+const config = {...}
+module.exports = config
+</code></pre><h2>Conclusion</h2><p>:white_check_mark: pros:</p><ul><li>good developer experience when configuring tools</li><li>continuous integration. <code>Eslint</code> with enabled <code>@typescript-eslint/parser</code> will<ul><li>mentor your juniors</li><li>kick you, if you suddenly decide to quickly tweak the config using <code>vim</code> and make typo</li><li>catch regressions when you bump tool version</li></ul></li><li>find the power of TS in a place where you might not have expected</li></ul><p>:disappointed: cons:</p><ul><li>type annotating may be a challenge for junior/middle developers.
+Typically tool packages don&#x27;t provide documented way how to add types for configuration.
+In my practice i don&#x27;t met the issues when i can&#x27;t fix/workaround it but
+if you are not sure about <code>Omit,Pick,Partial,ReturnType,infer,Parameters</code> first practice with this TS-features
+(read this article, if everything in it is familiar and clear to you, you are a TS master)</li></ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Newsletters and regular resources for FrontEnd developer]]></title>
         <id>/2022/01/02/reqular-dev-resources</id>

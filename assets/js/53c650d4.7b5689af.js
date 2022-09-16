@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdev_points=self.webpackChunkdev_points||[]).push([[521],{2610:function(n){n.exports=JSON.parse('{"/dev-points/tags/frontend":{"allTagsPath":"/dev-points/tags","slug":"/dev-points/tags/frontend","name":"frontend","count":1,"permalink":"/dev-points/tags/frontend"}}')}}]);
