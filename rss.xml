@@ -13,7 +13,7 @@
             <guid>/2022/09/11/ts-type-aware-configuration-files</guid>
             <pubDate>Sun, 11 Sep 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[The problem]]></description>
-            <content:encoded><![CDATA[<h2>The problem</h2><p>:bulb: <strong>I feel frustrated any time, when i have no autocomplete on typing a property in a config file for a popular tool</strong>
+            <content:encoded><![CDATA[<h2>The problem</h2><p>:bulb: I feel frustrated any time, when i have no autocomplete on typing a property in a config file for a popular tool
 like <code>prettier.config.json</code>...</p><p>Sometimes, the IDE/CodeEditor knowns &quot;schema&quot; of <code>json/yaml</code> config and hints when you type(for ex. <code>tsconfig.json</code>, <code>package.json</code>).
 But frequently it is not so.</p><p>Notice the problem is not about productivity or business-related code quality metrics
 but what developer experience <del>should be</del> i expect in 2022+ year</p><blockquote><p>If you use the WebStorm and your IDE helps you cook all config files in your project,
@@ -118,8 +118,8 @@ Do not forget about studying technologies and tools using courses(or self-study)
             <link>https://rodmax.github.io/dev-points/2022/01/01/welcome</link>
             <guid>/2022/01/01/welcome</guid>
             <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Hi I’m Max (or Maxim), a developer from Belarus]]></description>
-            <content:encoded><![CDATA[<p>Hi I’m Max (or Maxim), a developer from Belarus</p><p>While communicating with colleagues, we often find interesting solutions, tips, something useful and sharable.</p><p>Sometimes I just give advice in chats and notice that these answers later would be of great help to someone else</p><p>I also tried to systematize my knowledge and see how it will look</p><p>in the end, I created this project with blogs, notes to collect all above finds...</p><p>At worst, I learn how to mange <a href="https://docusaurus.io/">docusaurus</a> sites :sunglasses:</p>]]></content:encoded>
+            <description><![CDATA[Hi I’m Max, a developer from Belarus]]></description>
+            <content:encoded><![CDATA[<p>Hi I’m Max, a developer from Belarus</p><p>While communicating with colleagues, we often find interesting solutions, tips, something useful and sharable.</p><p>Sometimes I give advice in working chats and notice that these answers later would be of great help to someone else</p><p>so I started writing something on this blog</p><p>At worst, I learn how to cook <a href="https://docusaurus.io/">docusaurus</a> sites :sunglasses:</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
