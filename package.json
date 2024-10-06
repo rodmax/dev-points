@@ -12,7 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "eslint:base": "eslint -f visualstudio --ext=js,jsx,ts,tsx",
+    "eslint:base": "eslint",
     "eslint:all": "npm run eslint:base -- ./",
     "cspell:base": "cspell lint --no-progress",
     "cspell:all": "cspell lint --no-progress $(git ls-files)",
@@ -37,16 +37,16 @@
     ]
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.14",
-    "@docusaurus/preset-classic": "2.0.0-beta.14",
-    "@easyops-cn/docusaurus-search-local": "0.21.4",
-    "@mdx-js/react": "^1.6.21",
-    "@svgr/webpack": "^5.5.0",
-    "clsx": "^1.1.1",
+    "@docusaurus/core": "3.5.2",
+    "@docusaurus/preset-classic": "3.5.2",
+    "@easyops-cn/docusaurus-search-local": "0.44.5",
+    "@mdx-js/react": "3.0.1",
+    "@svgr/webpack": "8.1.0",
+    "clsx": "2.1.1",
     "file-loader": "^6.2.0",
-    "prism-react-renderer": "^1.2.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "prism-react-renderer": "2.4.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "url-loader": "^4.1.1"
   },
   "browserslist": {
@@ -62,11 +62,13 @@
     ]
   },
   "devDependencies": {
-    "@docusaurus/types": "2.0.0-beta.14",
-    "cspell": "5.13.4",
-    "eslint": "8.6.0",
+    "@docusaurus/types": "3.5.2",
+    "@eslint/js": "9.12.0",
+    "cspell": "8.14.4",
+    "eslint": "9.12.0",
     "husky": "7.0.4",
-    "lint-staged": "12.1.4",
-    "prettier": "2.5.1"
+    "lint-staged": "15.2.10",
+    "prettier": "3.3.3",
+    "typescript": "5.6.2"
   }
 }

@@ -1,6 +1,7 @@
 // @ts-check
-const lightCodeTheme = require('prism-react-renderer/themes/github')
-const darkCodeTheme = require('prism-react-renderer/themes/dracula')
+const { themes } = require('prism-react-renderer')
+const lightTheme = themes.github
+const darkTheme = themes.dracula
 
 const TITLE = 'DevPoints'
 const PROJECT_NAME = 'dev-points'
@@ -38,8 +39,8 @@ module.exports = {
             copyright: `Copyright © ${new Date().getFullYear()} Max Rodionov. Built with <a target="_blank" href="https://docusaurus.io">Docusaurus</a>.`,
         },
         prism: {
-            theme: lightCodeTheme,
-            darkTheme: darkCodeTheme,
+            theme: lightTheme,
+            darkTheme: darkTheme,
         },
     },
     plugins: [
@@ -47,6 +48,7 @@ module.exports = {
             require.resolve('@easyops-cn/docusaurus-search-local'),
             {
                 hashed: true,
+                indexDocs: false,
                 language: ['en', 'ru'],
                 blogRouteBasePath: '/',
             },
