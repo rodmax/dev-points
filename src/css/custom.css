@@ -8,14 +8,16 @@
 /* You can override the default Infima variables here. */
 :root:root {
     /* play with primary color here: https://docusaurus.io/docs/styling-layout */
-    --ifm-color-primary: #51a9d9;
-    --ifm-color-primary-dark: #399dd4;
-    --ifm-color-primary-darker: #2d97d0;
-    --ifm-color-primary-darkest: #257cab;
-    --ifm-color-primary-light: #69b5de;
-    --ifm-color-primary-lighter: #76bbe1;
-    --ifm-color-primary-lightest: #9acde9;
+    --ifm-color-primary: #167dff;
+    --ifm-color-primary-dark: #006ef9;
+    --ifm-color-primary-darker: #0068eb;
+    --ifm-color-primary-darkest: #0056c2;
+    --ifm-color-primary-light: #328cff;
+    --ifm-color-primary-lighter: #4094ff;
+    --ifm-color-primary-lightest: #69abff;
+
     --ifm-code-font-size: 95%;
+    --ifm-container-width-xl: 1600px;
 }
 
 .navbar__search-input {

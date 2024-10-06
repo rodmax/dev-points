@@ -3,12 +3,11 @@ const { themes } = require('prism-react-renderer')
 const lightTheme = themes.github
 const darkTheme = themes.dracula
 
-const TITLE = 'DevPoints'
 const PROJECT_NAME = 'dev-points'
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-    title: TITLE,
+    title: 'Max Radzivonau. DevPoints',
     tagline: '',
     url: 'https://rodmax.github.io',
     baseUrl: `/${PROJECT_NAME}/`,
@@ -20,7 +19,7 @@ module.exports = {
     onBrokenMarkdownLinks: 'warn',
     themeConfig: {
         navbar: {
-            title: `<${TITLE}/>`,
+            title: `/dev/points --author=max.radzivonau`,
             logo: {
                 alt: 'Dev Tips Logo',
                 src: 'img/ava.png',
