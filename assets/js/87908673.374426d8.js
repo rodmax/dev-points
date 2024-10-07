@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdev_points=self.webpackChunkdev_points||[]).push([[362],{6795:function(s){s.exports=JSON.parse('{"allTagsPath":"/dev-points/tags","slug":"/dev-points/tags/nodejs","name":"nodejs","count":1,"permalink":"/dev-points/tags/nodejs"}')}}]);
